@@ -1,0 +1,131 @@
+C:\Users\George\AppData\Local\Temporary Projects\WindowsApplication1\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\George\AppData\Local\Temporary Projects\WindowsApplication1\obj\Debug\thermokipia.MDIParent1.resources
+C:\Users\George\AppData\Local\Temporary Projects\WindowsApplication1\obj\Debug\thermokipia.Resources.resources
+C:\Users\George\AppData\Local\Temporary Projects\WindowsApplication1\obj\Debug\thermokipia.vbproj.GenerateResource.Cache
+C:\Users\George\AppData\Local\Temporary Projects\WindowsApplication1\bin\Debug\thermokipia.exe
+C:\Users\George\AppData\Local\Temporary Projects\WindowsApplication1\bin\Debug\thermokipia.pdb
+C:\Users\George\AppData\Local\Temporary Projects\WindowsApplication1\bin\Debug\thermokipia.xml
+C:\Users\George\AppData\Local\Temporary Projects\WindowsApplication1\obj\Debug\thermokipia.exe
+C:\Users\George\AppData\Local\Temporary Projects\WindowsApplication1\obj\Debug\thermokipia.xml
+C:\Users\George\AppData\Local\Temporary Projects\WindowsApplication1\obj\Debug\thermokipia.pdb
+C:\Users\George\Documents\Visual Studio 2008\Projects\thermokipia\thermokipia\obj\Debug\thermokipia.exe
+C:\Users\George\Documents\Visual Studio 2008\Projects\thermokipia\thermokipia\obj\Debug\thermokipia.xml
+C:\Users\George\Documents\Visual Studio 2008\Projects\thermokipia\thermokipia\obj\Debug\thermokipia.pdb
+C:\Users\George\Documents\Visual Studio 2008\Projects\thermokipia\thermokipia\bin\Debug\thermokipia.exe
+C:\Users\George\Documents\Visual Studio 2008\Projects\thermokipia\thermokipia\bin\Debug\thermokipia.pdb
+C:\Users\George\Documents\Visual Studio 2008\Projects\thermokipia\thermokipia\bin\Debug\thermokipia.xml
+C:\Users\George\Documents\Visual Studio 2008\Projects\thermokipia\thermokipia\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\George\Documents\Visual Studio 2008\Projects\thermokipia\thermokipia\obj\Debug\thermokipia.MDIParent1.resources
+C:\Users\George\Documents\Visual Studio 2008\Projects\thermokipia\thermokipia\obj\Debug\thermokipia.Resources.resources
+C:\Users\George\Documents\Visual Studio 2008\Projects\thermokipia\thermokipia\obj\Debug\thermokipia.vbproj.GenerateResource.Cache
+C:\Users\George\Documents\Visual Studio 2008\Projects\thermokipia\thermokipia\obj\Debug\thermokipia.Form2.resources
+C:\vb2008\thermokipia\thermokipia\obj\Debug\thermokipia.exe
+C:\vb2008\thermokipia\thermokipia\obj\Debug\thermokipia.xml
+C:\vb2008\thermokipia\thermokipia\obj\Debug\thermokipia.pdb
+C:\vb2008\thermokipia\thermokipia\bin\Debug\thermokipia.exe
+C:\vb2008\thermokipia\thermokipia\bin\Debug\thermokipia.pdb
+C:\vb2008\thermokipia\thermokipia\bin\Debug\thermokipia.xml
+C:\vb2008\thermokipia\thermokipia\obj\Debug\ResolveAssemblyReference.cache
+C:\vb2008\thermokipia\thermokipia\obj\Debug\thermokipia.Form1.resources
+C:\vb2008\thermokipia\thermokipia\obj\Debug\thermokipia.Resources.resources
+C:\vb2008\thermokipia\thermokipia\obj\Debug\thermokipia.vbproj.GenerateResource.Cache
+C:\vb2008\thermokipia\thermokipia\obj\Debug\thermokipia.MDIMain.resources
+C:\vb2008\thermokipia\thermokipia\obj\Debug\thermokipia.FrmSERVERSETTINGS.resources
+C:\vb2008\thermokipia\thermokipia\obj\Debug\thermokipia.ergates.resources
+C:\vb2008\thermokipia\thermokipia\obj\Debug\thermokipia.othoni1.resources
+C:\vb2008\thermokipia\thermokipia\obj\Debug\thermokipia.FormJobs.resources
+C:\vb2008\thermokipia\thermokipia\obj\Debug\thermokipia.vbproj.ResolveComReference.cache
+C:\vb2008\thermokipia\thermokipia\bin\Debug\Microsoft.Office.Interop.Excel.dll
+C:\vb2008\thermokipia\thermokipia\bin\Debug\office.dll
+C:\vb2008\thermokipia\thermokipia\bin\Debug\Microsoft.Vbe.Interop.dll
+D:\adoprog2\thermokipia\thermokipia\obj\Debug\thermokipia.vbproj.ResolveComReference.cache
+D:\adoprog2\thermokipia\thermokipia\obj\Debug\thermokipia.exe
+D:\adoprog2\thermokipia\thermokipia\obj\Debug\thermokipia.xml
+D:\adoprog2\thermokipia\thermokipia\obj\Debug\thermokipia.pdb
+D:\adoprog2\thermokipia\thermokipia\bin\Debug\thermokipia.exe
+D:\adoprog2\thermokipia\thermokipia\bin\Debug\thermokipia.pdb
+D:\adoprog2\thermokipia\thermokipia\bin\Debug\thermokipia.xml
+D:\adoprog2\thermokipia\thermokipia\bin\Debug\Microsoft.Office.Interop.Excel.dll
+D:\adoprog2\thermokipia\thermokipia\bin\Debug\office.dll
+D:\adoprog2\thermokipia\thermokipia\bin\Debug\Microsoft.Vbe.Interop.dll
+D:\adoprog2\thermokipia\thermokipia\obj\Debug\ResolveAssemblyReference.cache
+D:\adoprog2\thermokipia\thermokipia\obj\Debug\thermokipia.Form1.resources
+D:\adoprog2\thermokipia\thermokipia\obj\Debug\thermokipia.FrmSERVERSETTINGS.resources
+D:\adoprog2\thermokipia\thermokipia\obj\Debug\thermokipia.ergates.resources
+D:\adoprog2\thermokipia\thermokipia\obj\Debug\thermokipia.FormJobs.resources
+D:\adoprog2\thermokipia\thermokipia\obj\Debug\thermokipia.MDIMain.resources
+D:\adoprog2\thermokipia\thermokipia\obj\Debug\thermokipia.Resources.resources
+D:\adoprog2\thermokipia\thermokipia\obj\Debug\thermokipia.vbproj.GenerateResource.Cache
+D:\adoprog2\thermokipia\thermokipia\obj\Debug\thermokipia.SynoloOres.resources
+D:\adoprog2\thermokipia\thermokipia\obj\Debug\thermokipia.FrmLOGIN.resources
+E:\adoprog2\thermokipia\thermokipia\obj\Debug\thermokipia.vbproj.ResolveComReference.cache
+E:\adoprog2\thermokipia\thermokipia\obj\Debug\thermokipia.xml
+E:\adoprog2\thermokipia\thermokipia\obj\Debug\thermokipia.pdb
+E:\adoprog2\thermokipia\thermokipia\bin\Debug\thermokipia.exe
+E:\adoprog2\thermokipia\thermokipia\bin\Debug\thermokipia.pdb
+E:\adoprog2\thermokipia\thermokipia\bin\Debug\thermokipia.xml
+E:\adoprog2\thermokipia\thermokipia\obj\Debug\ResolveAssemblyReference.cache
+E:\adoprog2\thermokipia\thermokipia\obj\Debug\thermokipia.Form1.resources
+E:\adoprog2\thermokipia\thermokipia\obj\Debug\thermokipia.SynoloOres.resources
+E:\adoprog2\thermokipia\thermokipia\obj\Debug\thermokipia.FrmLOGIN.resources
+E:\adoprog2\thermokipia\thermokipia\obj\Debug\thermokipia.FrmSERVERSETTINGS.resources
+E:\adoprog2\thermokipia\thermokipia\obj\Debug\thermokipia.ergates.resources
+E:\adoprog2\thermokipia\thermokipia\obj\Debug\thermokipia.FormJobs.resources
+E:\adoprog2\thermokipia\thermokipia\obj\Debug\thermokipia.MDIMain.resources
+E:\adoprog2\thermokipia\thermokipia\obj\Debug\thermokipia.Resources.resources
+E:\adoprog2\thermokipia\thermokipia\obj\Debug\thermokipia.vbproj.GenerateResource.Cache
+E:\adoprog2\thermokipia\thermokipia\obj\Debug\thermokipia.exe
+F:\adoprog2\thermokipia\thermokipia\bin\Debug\thermokipia.exe
+F:\adoprog2\thermokipia\thermokipia\bin\Debug\thermokipia.pdb
+F:\adoprog2\thermokipia\thermokipia\bin\Debug\thermokipia.xml
+F:\adoprog2\thermokipia\thermokipia\obj\Debug\ResolveAssemblyReference.cache
+F:\adoprog2\thermokipia\thermokipia\obj\Debug\thermokipia.vbproj.ResolveComReference.cache
+F:\adoprog2\thermokipia\thermokipia\obj\Debug\thermokipia.Form1.resources
+F:\adoprog2\thermokipia\thermokipia\obj\Debug\thermokipia.SynoloOres.resources
+F:\adoprog2\thermokipia\thermokipia\obj\Debug\thermokipia.FrmLOGIN.resources
+F:\adoprog2\thermokipia\thermokipia\obj\Debug\thermokipia.FrmSERVERSETTINGS.resources
+F:\adoprog2\thermokipia\thermokipia\obj\Debug\thermokipia.FormJobs.resources
+F:\adoprog2\thermokipia\thermokipia\obj\Debug\thermokipia.MDIMain.resources
+F:\adoprog2\thermokipia\thermokipia\obj\Debug\thermokipia.Resources.resources
+F:\adoprog2\thermokipia\thermokipia\obj\Debug\thermokipia.vbproj.GenerateResource.Cache
+F:\adoprog2\thermokipia\thermokipia\obj\Debug\thermokipia.exe
+F:\adoprog2\thermokipia\thermokipia\obj\Debug\thermokipia.xml
+F:\adoprog2\thermokipia\thermokipia\obj\Debug\thermokipia.pdb
+G:\adoprog2\thermokipia\thermokipia\obj\Debug\thermokipia.vbproj.ResolveComReference.cache
+G:\adoprog2\thermokipia\thermokipia\obj\Debug\thermokipia.exe
+G:\adoprog2\thermokipia\thermokipia\obj\Debug\thermokipia.xml
+G:\adoprog2\thermokipia\thermokipia\obj\Debug\thermokipia.pdb
+G:\adoprog2\thermokipia\thermokipia\bin\Debug\thermokipia.exe
+G:\adoprog2\thermokipia\thermokipia\bin\Debug\thermokipia.pdb
+G:\adoprog2\thermokipia\thermokipia\bin\Debug\thermokipia.xml
+G:\adoprog2\thermokipia\thermokipia\obj\Debug\ResolveAssemblyReference.cache
+G:\adoprog2\thermokipia\thermokipia\obj\Debug\thermokipia.Form1.resources
+G:\adoprog2\thermokipia\thermokipia\obj\Debug\thermokipia.SynoloOres.resources
+G:\adoprog2\thermokipia\thermokipia\obj\Debug\thermokipia.FrmLOGIN.resources
+G:\adoprog2\thermokipia\thermokipia\obj\Debug\thermokipia.FrmSERVERSETTINGS.resources
+G:\adoprog2\thermokipia\thermokipia\obj\Debug\thermokipia.ergates.resources
+G:\adoprog2\thermokipia\thermokipia\obj\Debug\thermokipia.FormJobs.resources
+G:\adoprog2\thermokipia\thermokipia\obj\Debug\thermokipia.MDIMain.resources
+G:\adoprog2\thermokipia\thermokipia\obj\Debug\thermokipia.Resources.resources
+G:\adoprog2\thermokipia\thermokipia\obj\Debug\thermokipia.vbproj.GenerateResource.Cache
+F:\Adoprog2\thermokipia\thermokipia\obj\Debug\thermokipia.gergates.resources
+C:\adoprog2\thermokipia\thermokipia\obj\Debug\thermokipia.vbproj.ResolveComReference.cache
+C:\adoprog2\thermokipia\thermokipia\obj\Debug\thermokipia.exe
+C:\adoprog2\thermokipia\thermokipia\obj\Debug\thermokipia.xml
+C:\adoprog2\thermokipia\thermokipia\obj\Debug\thermokipia.pdb
+C:\adoprog2\thermokipia\thermokipia\bin\Debug\thermokipia.exe
+C:\adoprog2\thermokipia\thermokipia\bin\Debug\thermokipia.pdb
+C:\adoprog2\thermokipia\thermokipia\bin\Debug\thermokipia.xml
+C:\adoprog2\thermokipia\thermokipia\bin\Debug\Microsoft.Office.Interop.Excel.dll
+C:\adoprog2\thermokipia\thermokipia\bin\Debug\office.dll
+C:\adoprog2\thermokipia\thermokipia\bin\Debug\Microsoft.Vbe.Interop.dll
+C:\adoprog2\thermokipia\thermokipia\obj\Debug\ResolveAssemblyReference.cache
+C:\adoprog2\thermokipia\thermokipia\obj\Debug\thermokipia.Form1.resources
+C:\adoprog2\thermokipia\thermokipia\obj\Debug\thermokipia.SynoloOres.resources
+C:\adoprog2\thermokipia\thermokipia\obj\Debug\thermokipia.FrmLOGIN.resources
+C:\adoprog2\thermokipia\thermokipia\obj\Debug\thermokipia.FrmSERVERSETTINGS.resources
+C:\adoprog2\thermokipia\thermokipia\obj\Debug\thermokipia.gergates.resources
+C:\adoprog2\thermokipia\thermokipia\obj\Debug\thermokipia.FormJobs.resources
+C:\adoprog2\thermokipia\thermokipia\obj\Debug\thermokipia.MDIMain.resources
+C:\adoprog2\thermokipia\thermokipia\obj\Debug\thermokipia.Resources.resources
+C:\adoprog2\thermokipia\thermokipia\obj\Debug\thermokipia.vbproj.GenerateResource.Cache
