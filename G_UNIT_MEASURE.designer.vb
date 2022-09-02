@@ -26,6 +26,7 @@ Partial Class gergates
         Me.GridView1 = New System.Windows.Forms.DataGridView
         Me.cmdCancel = New System.Windows.Forms.Button
         Me.Label1 = New System.Windows.Forms.Label
+        Me.DeleteErgasia = New System.Windows.Forms.Button
         Me.GroupBox1.SuspendLayout()
         CType(Me.GridView1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
@@ -67,12 +68,23 @@ Partial Class gergates
         Me.Label1.TabIndex = 5
         Me.Label1.Visible = False
         '
+        'DeleteErgasia
+        '
+        Me.DeleteErgasia.Location = New System.Drawing.Point(247, 495)
+        Me.DeleteErgasia.Name = "DeleteErgasia"
+        Me.DeleteErgasia.Size = New System.Drawing.Size(90, 23)
+        Me.DeleteErgasia.TabIndex = 6
+        Me.DeleteErgasia.Text = "Διαγραφή"
+        Me.DeleteErgasia.UseVisualStyleBackColor = True
+        Me.DeleteErgasia.Visible = False
+        '
         'gergates
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.WhiteSmoke
         Me.ClientSize = New System.Drawing.Size(881, 530)
+        Me.Controls.Add(Me.DeleteErgasia)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.cmdCancel)
         Me.Controls.Add(Me.GroupBox1)
@@ -92,4 +104,5 @@ Partial Class gergates
     Friend WithEvents cmdCancel As System.Windows.Forms.Button
     Friend WithEvents GridView1 As System.Windows.Forms.DataGridView
     Friend WithEvents Label1 As System.Windows.Forms.Label
+    Friend WithEvents DeleteErgasia As System.Windows.Forms.Button
 End Class

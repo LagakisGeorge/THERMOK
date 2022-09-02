@@ -156,6 +156,7 @@ Partial Class MDIMain
         Me.cmdDelete = New System.Windows.Forms.Button
         Me.cmdEdit = New System.Windows.Forms.Button
         Me.cmdNew = New System.Windows.Forms.Button
+        Me.OMADES = New System.Windows.Forms.Button
         Me.MenuStrip1.SuspendLayout()
         Me.TSHoldLeft.SuspendLayout()
         Me.MainPanel.SuspendLayout()
@@ -193,7 +194,7 @@ Partial Class MDIMain
         '
         Me.SystemFileToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.MasterFileToolStripMenuItem, Me.PointOfPaymentToolStripMenuItem, Me.UserInformationFileToolStripMenuItem, Me.ToolStripSeparator1, Me.AuditTrailToolStripMenuItem, Me.HelpToolStripMenuItem, Me.ToolStripSeparator9, Me.AboutToolStripMenuItem, Me.ExitToolStripMenuItem})
         Me.SystemFileToolStripMenuItem.Name = "SystemFileToolStripMenuItem"
-        Me.SystemFileToolStripMenuItem.Size = New System.Drawing.Size(95, 24)
+        Me.SystemFileToolStripMenuItem.Size = New System.Drawing.Size(78, 20)
         Me.SystemFileToolStripMenuItem.Text = "System File"
         '
         'MasterFileToolStripMenuItem
@@ -201,102 +202,102 @@ Partial Class MDIMain
         Me.MasterFileToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.SetCategoryFileToolStripMenuItem, Me.SetItemFileToolStripMenuItem, Me.ToolStripSeparator6, Me.SuppliersToolStripMenuItem, Me.SuppliersProductToolStripMenuItem, Me.ToolStripSeparator11, Me.ProductsReorderPointToolStripMenuItem, Me.StockOrderToolStripMenuItem, Me.StockMonitoringToolStripMenuItem, Me.ToolStripSeparator12, Me.BarcodeFormToolStripMenuItem, Me.ToolStripSeparator13, Me.UnitMeasureToolStripMenuItem, Me.ToolStripSeparator14, Me.BusinessInformationToolStripMenuItem})
         Me.MasterFileToolStripMenuItem.Image = CType(resources.GetObject("MasterFileToolStripMenuItem.Image"), System.Drawing.Image)
         Me.MasterFileToolStripMenuItem.Name = "MasterFileToolStripMenuItem"
-        Me.MasterFileToolStripMenuItem.Size = New System.Drawing.Size(193, 24)
+        Me.MasterFileToolStripMenuItem.Size = New System.Drawing.Size(168, 22)
         Me.MasterFileToolStripMenuItem.Text = "Inventory File"
         '
         'SetCategoryFileToolStripMenuItem
         '
         Me.SetCategoryFileToolStripMenuItem.Image = CType(resources.GetObject("SetCategoryFileToolStripMenuItem.Image"), System.Drawing.Image)
         Me.SetCategoryFileToolStripMenuItem.Name = "SetCategoryFileToolStripMenuItem"
-        Me.SetCategoryFileToolStripMenuItem.Size = New System.Drawing.Size(215, 24)
+        Me.SetCategoryFileToolStripMenuItem.Size = New System.Drawing.Size(185, 22)
         Me.SetCategoryFileToolStripMenuItem.Text = "Category List"
         '
         'SetItemFileToolStripMenuItem
         '
         Me.SetItemFileToolStripMenuItem.Image = CType(resources.GetObject("SetItemFileToolStripMenuItem.Image"), System.Drawing.Image)
         Me.SetItemFileToolStripMenuItem.Name = "SetItemFileToolStripMenuItem"
-        Me.SetItemFileToolStripMenuItem.Size = New System.Drawing.Size(215, 24)
+        Me.SetItemFileToolStripMenuItem.Size = New System.Drawing.Size(185, 22)
         Me.SetItemFileToolStripMenuItem.Text = "Category Item List"
         '
         'ToolStripSeparator6
         '
         Me.ToolStripSeparator6.Name = "ToolStripSeparator6"
-        Me.ToolStripSeparator6.Size = New System.Drawing.Size(212, 6)
+        Me.ToolStripSeparator6.Size = New System.Drawing.Size(182, 6)
         '
         'SuppliersToolStripMenuItem
         '
         Me.SuppliersToolStripMenuItem.Image = CType(resources.GetObject("SuppliersToolStripMenuItem.Image"), System.Drawing.Image)
         Me.SuppliersToolStripMenuItem.Name = "SuppliersToolStripMenuItem"
-        Me.SuppliersToolStripMenuItem.Size = New System.Drawing.Size(215, 24)
+        Me.SuppliersToolStripMenuItem.Size = New System.Drawing.Size(185, 22)
         Me.SuppliersToolStripMenuItem.Text = "Manage Suppliers"
         '
         'SuppliersProductToolStripMenuItem
         '
         Me.SuppliersProductToolStripMenuItem.Image = CType(resources.GetObject("SuppliersProductToolStripMenuItem.Image"), System.Drawing.Image)
         Me.SuppliersProductToolStripMenuItem.Name = "SuppliersProductToolStripMenuItem"
-        Me.SuppliersProductToolStripMenuItem.Size = New System.Drawing.Size(215, 24)
+        Me.SuppliersProductToolStripMenuItem.Size = New System.Drawing.Size(185, 22)
         Me.SuppliersProductToolStripMenuItem.Text = "Suppliers Product"
         '
         'ToolStripSeparator11
         '
         Me.ToolStripSeparator11.Name = "ToolStripSeparator11"
-        Me.ToolStripSeparator11.Size = New System.Drawing.Size(212, 6)
+        Me.ToolStripSeparator11.Size = New System.Drawing.Size(182, 6)
         '
         'ProductsReorderPointToolStripMenuItem
         '
         Me.ProductsReorderPointToolStripMenuItem.Image = CType(resources.GetObject("ProductsReorderPointToolStripMenuItem.Image"), System.Drawing.Image)
         Me.ProductsReorderPointToolStripMenuItem.Name = "ProductsReorderPointToolStripMenuItem"
-        Me.ProductsReorderPointToolStripMenuItem.Size = New System.Drawing.Size(215, 24)
+        Me.ProductsReorderPointToolStripMenuItem.Size = New System.Drawing.Size(185, 22)
         Me.ProductsReorderPointToolStripMenuItem.Text = "Critical Product(s)"
         '
         'StockOrderToolStripMenuItem
         '
         Me.StockOrderToolStripMenuItem.Image = CType(resources.GetObject("StockOrderToolStripMenuItem.Image"), System.Drawing.Image)
         Me.StockOrderToolStripMenuItem.Name = "StockOrderToolStripMenuItem"
-        Me.StockOrderToolStripMenuItem.Size = New System.Drawing.Size(215, 24)
+        Me.StockOrderToolStripMenuItem.Size = New System.Drawing.Size(185, 22)
         Me.StockOrderToolStripMenuItem.Text = "Stock Order Form"
         '
         'StockMonitoringToolStripMenuItem
         '
         Me.StockMonitoringToolStripMenuItem.Image = CType(resources.GetObject("StockMonitoringToolStripMenuItem.Image"), System.Drawing.Image)
         Me.StockMonitoringToolStripMenuItem.Name = "StockMonitoringToolStripMenuItem"
-        Me.StockMonitoringToolStripMenuItem.Size = New System.Drawing.Size(215, 24)
+        Me.StockMonitoringToolStripMenuItem.Size = New System.Drawing.Size(185, 22)
         Me.StockMonitoringToolStripMenuItem.Text = "Stock Monitoring"
         '
         'ToolStripSeparator12
         '
         Me.ToolStripSeparator12.Name = "ToolStripSeparator12"
-        Me.ToolStripSeparator12.Size = New System.Drawing.Size(212, 6)
+        Me.ToolStripSeparator12.Size = New System.Drawing.Size(182, 6)
         '
         'BarcodeFormToolStripMenuItem
         '
         Me.BarcodeFormToolStripMenuItem.Image = CType(resources.GetObject("BarcodeFormToolStripMenuItem.Image"), System.Drawing.Image)
         Me.BarcodeFormToolStripMenuItem.Name = "BarcodeFormToolStripMenuItem"
-        Me.BarcodeFormToolStripMenuItem.Size = New System.Drawing.Size(215, 24)
+        Me.BarcodeFormToolStripMenuItem.Size = New System.Drawing.Size(185, 22)
         Me.BarcodeFormToolStripMenuItem.Text = "Barcode Form"
         '
         'ToolStripSeparator13
         '
         Me.ToolStripSeparator13.Name = "ToolStripSeparator13"
-        Me.ToolStripSeparator13.Size = New System.Drawing.Size(212, 6)
+        Me.ToolStripSeparator13.Size = New System.Drawing.Size(182, 6)
         '
         'UnitMeasureToolStripMenuItem
         '
         Me.UnitMeasureToolStripMenuItem.Image = CType(resources.GetObject("UnitMeasureToolStripMenuItem.Image"), System.Drawing.Image)
         Me.UnitMeasureToolStripMenuItem.Name = "UnitMeasureToolStripMenuItem"
-        Me.UnitMeasureToolStripMenuItem.Size = New System.Drawing.Size(215, 24)
+        Me.UnitMeasureToolStripMenuItem.Size = New System.Drawing.Size(185, 22)
         Me.UnitMeasureToolStripMenuItem.Text = "Unit of Measure"
         '
         'ToolStripSeparator14
         '
         Me.ToolStripSeparator14.Name = "ToolStripSeparator14"
-        Me.ToolStripSeparator14.Size = New System.Drawing.Size(212, 6)
+        Me.ToolStripSeparator14.Size = New System.Drawing.Size(182, 6)
         '
         'BusinessInformationToolStripMenuItem
         '
         Me.BusinessInformationToolStripMenuItem.Image = CType(resources.GetObject("BusinessInformationToolStripMenuItem.Image"), System.Drawing.Image)
         Me.BusinessInformationToolStripMenuItem.Name = "BusinessInformationToolStripMenuItem"
-        Me.BusinessInformationToolStripMenuItem.Size = New System.Drawing.Size(215, 24)
+        Me.BusinessInformationToolStripMenuItem.Size = New System.Drawing.Size(185, 22)
         Me.BusinessInformationToolStripMenuItem.Text = "Business Information"
         '
         'PointOfPaymentToolStripMenuItem
@@ -304,115 +305,115 @@ Partial Class MDIMain
         Me.PointOfPaymentToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.CashieringToolStripMenuItem, Me.SalesReceiptToolStripMenuItem})
         Me.PointOfPaymentToolStripMenuItem.Image = CType(resources.GetObject("PointOfPaymentToolStripMenuItem.Image"), System.Drawing.Image)
         Me.PointOfPaymentToolStripMenuItem.Name = "PointOfPaymentToolStripMenuItem"
-        Me.PointOfPaymentToolStripMenuItem.Size = New System.Drawing.Size(193, 24)
+        Me.PointOfPaymentToolStripMenuItem.Size = New System.Drawing.Size(168, 22)
         Me.PointOfPaymentToolStripMenuItem.Text = "Point Of Payment"
         '
         'CashieringToolStripMenuItem
         '
         Me.CashieringToolStripMenuItem.Image = CType(resources.GetObject("CashieringToolStripMenuItem.Image"), System.Drawing.Image)
         Me.CashieringToolStripMenuItem.Name = "CashieringToolStripMenuItem"
-        Me.CashieringToolStripMenuItem.Size = New System.Drawing.Size(166, 24)
+        Me.CashieringToolStripMenuItem.Size = New System.Drawing.Size(142, 22)
         Me.CashieringToolStripMenuItem.Text = "Cashiering"
         '
         'SalesReceiptToolStripMenuItem
         '
         Me.SalesReceiptToolStripMenuItem.Image = CType(resources.GetObject("SalesReceiptToolStripMenuItem.Image"), System.Drawing.Image)
         Me.SalesReceiptToolStripMenuItem.Name = "SalesReceiptToolStripMenuItem"
-        Me.SalesReceiptToolStripMenuItem.Size = New System.Drawing.Size(166, 24)
+        Me.SalesReceiptToolStripMenuItem.Size = New System.Drawing.Size(142, 22)
         Me.SalesReceiptToolStripMenuItem.Text = "Sales Receipt"
         '
         'UserInformationFileToolStripMenuItem
         '
         Me.UserInformationFileToolStripMenuItem.Image = CType(resources.GetObject("UserInformationFileToolStripMenuItem.Image"), System.Drawing.Image)
         Me.UserInformationFileToolStripMenuItem.Name = "UserInformationFileToolStripMenuItem"
-        Me.UserInformationFileToolStripMenuItem.Size = New System.Drawing.Size(193, 24)
+        Me.UserInformationFileToolStripMenuItem.Size = New System.Drawing.Size(168, 22)
         Me.UserInformationFileToolStripMenuItem.Text = "Manage Users"
         '
         'ToolStripSeparator1
         '
         Me.ToolStripSeparator1.Name = "ToolStripSeparator1"
-        Me.ToolStripSeparator1.Size = New System.Drawing.Size(190, 6)
+        Me.ToolStripSeparator1.Size = New System.Drawing.Size(165, 6)
         '
         'AuditTrailToolStripMenuItem
         '
         Me.AuditTrailToolStripMenuItem.Image = CType(resources.GetObject("AuditTrailToolStripMenuItem.Image"), System.Drawing.Image)
         Me.AuditTrailToolStripMenuItem.Name = "AuditTrailToolStripMenuItem"
-        Me.AuditTrailToolStripMenuItem.Size = New System.Drawing.Size(193, 24)
+        Me.AuditTrailToolStripMenuItem.Size = New System.Drawing.Size(168, 22)
         Me.AuditTrailToolStripMenuItem.Text = "Users Log"
         '
         'HelpToolStripMenuItem
         '
         Me.HelpToolStripMenuItem.Image = CType(resources.GetObject("HelpToolStripMenuItem.Image"), System.Drawing.Image)
         Me.HelpToolStripMenuItem.Name = "HelpToolStripMenuItem"
-        Me.HelpToolStripMenuItem.Size = New System.Drawing.Size(193, 24)
+        Me.HelpToolStripMenuItem.Size = New System.Drawing.Size(168, 22)
         Me.HelpToolStripMenuItem.Text = "Help"
         '
         'ToolStripSeparator9
         '
         Me.ToolStripSeparator9.Name = "ToolStripSeparator9"
-        Me.ToolStripSeparator9.Size = New System.Drawing.Size(190, 6)
+        Me.ToolStripSeparator9.Size = New System.Drawing.Size(165, 6)
         '
         'AboutToolStripMenuItem
         '
         Me.AboutToolStripMenuItem.Image = CType(resources.GetObject("AboutToolStripMenuItem.Image"), System.Drawing.Image)
         Me.AboutToolStripMenuItem.Name = "AboutToolStripMenuItem"
-        Me.AboutToolStripMenuItem.Size = New System.Drawing.Size(193, 24)
+        Me.AboutToolStripMenuItem.Size = New System.Drawing.Size(168, 22)
         Me.AboutToolStripMenuItem.Text = "About"
         '
         'ExitToolStripMenuItem
         '
         Me.ExitToolStripMenuItem.Image = CType(resources.GetObject("ExitToolStripMenuItem.Image"), System.Drawing.Image)
         Me.ExitToolStripMenuItem.Name = "ExitToolStripMenuItem"
-        Me.ExitToolStripMenuItem.Size = New System.Drawing.Size(193, 24)
+        Me.ExitToolStripMenuItem.Size = New System.Drawing.Size(168, 22)
         Me.ExitToolStripMenuItem.Text = "Exit"
         '
         'ReportsToolStripMenuItem
         '
         Me.ReportsToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.SupplierProfileToolStripMenuItem, Me.SupplierProductsToolStripMenuItem, Me.ProductsReorderPointToolStripMenuItem1, Me.PurchaseOrderToolStripMenuItem, Me.PurchaseReceiveToolStripMenuItem, Me.StockBalancesToolStripMenuItem, Me.PointOfPaymentToolStripMenuItem1})
         Me.ReportsToolStripMenuItem.Name = "ReportsToolStripMenuItem"
-        Me.ReportsToolStripMenuItem.Size = New System.Drawing.Size(72, 24)
+        Me.ReportsToolStripMenuItem.Size = New System.Drawing.Size(59, 20)
         Me.ReportsToolStripMenuItem.Text = "Reports"
         '
         'SupplierProfileToolStripMenuItem
         '
         Me.SupplierProfileToolStripMenuItem.Image = CType(resources.GetObject("SupplierProfileToolStripMenuItem.Image"), System.Drawing.Image)
         Me.SupplierProfileToolStripMenuItem.Name = "SupplierProfileToolStripMenuItem"
-        Me.SupplierProfileToolStripMenuItem.Size = New System.Drawing.Size(230, 24)
+        Me.SupplierProfileToolStripMenuItem.Size = New System.Drawing.Size(196, 22)
         Me.SupplierProfileToolStripMenuItem.Text = "Supplier Profile"
         '
         'SupplierProductsToolStripMenuItem
         '
         Me.SupplierProductsToolStripMenuItem.Image = CType(resources.GetObject("SupplierProductsToolStripMenuItem.Image"), System.Drawing.Image)
         Me.SupplierProductsToolStripMenuItem.Name = "SupplierProductsToolStripMenuItem"
-        Me.SupplierProductsToolStripMenuItem.Size = New System.Drawing.Size(230, 24)
+        Me.SupplierProductsToolStripMenuItem.Size = New System.Drawing.Size(196, 22)
         Me.SupplierProductsToolStripMenuItem.Text = "Supplier Products"
         '
         'ProductsReorderPointToolStripMenuItem1
         '
         Me.ProductsReorderPointToolStripMenuItem1.Image = CType(resources.GetObject("ProductsReorderPointToolStripMenuItem1.Image"), System.Drawing.Image)
         Me.ProductsReorderPointToolStripMenuItem1.Name = "ProductsReorderPointToolStripMenuItem1"
-        Me.ProductsReorderPointToolStripMenuItem1.Size = New System.Drawing.Size(230, 24)
+        Me.ProductsReorderPointToolStripMenuItem1.Size = New System.Drawing.Size(196, 22)
         Me.ProductsReorderPointToolStripMenuItem1.Text = "Products Reorder Point"
         '
         'PurchaseOrderToolStripMenuItem
         '
         Me.PurchaseOrderToolStripMenuItem.Image = CType(resources.GetObject("PurchaseOrderToolStripMenuItem.Image"), System.Drawing.Image)
         Me.PurchaseOrderToolStripMenuItem.Name = "PurchaseOrderToolStripMenuItem"
-        Me.PurchaseOrderToolStripMenuItem.Size = New System.Drawing.Size(230, 24)
+        Me.PurchaseOrderToolStripMenuItem.Size = New System.Drawing.Size(196, 22)
         Me.PurchaseOrderToolStripMenuItem.Text = "Purchase Order"
         '
         'PurchaseReceiveToolStripMenuItem
         '
         Me.PurchaseReceiveToolStripMenuItem.Image = CType(resources.GetObject("PurchaseReceiveToolStripMenuItem.Image"), System.Drawing.Image)
         Me.PurchaseReceiveToolStripMenuItem.Name = "PurchaseReceiveToolStripMenuItem"
-        Me.PurchaseReceiveToolStripMenuItem.Size = New System.Drawing.Size(230, 24)
+        Me.PurchaseReceiveToolStripMenuItem.Size = New System.Drawing.Size(196, 22)
         Me.PurchaseReceiveToolStripMenuItem.Text = "Purchase Receive"
         '
         'StockBalancesToolStripMenuItem
         '
         Me.StockBalancesToolStripMenuItem.Image = CType(resources.GetObject("StockBalancesToolStripMenuItem.Image"), System.Drawing.Image)
         Me.StockBalancesToolStripMenuItem.Name = "StockBalancesToolStripMenuItem"
-        Me.StockBalancesToolStripMenuItem.Size = New System.Drawing.Size(230, 24)
+        Me.StockBalancesToolStripMenuItem.Size = New System.Drawing.Size(196, 22)
         Me.StockBalancesToolStripMenuItem.Text = "Stock balances"
         '
         'PointOfPaymentToolStripMenuItem1
@@ -420,35 +421,35 @@ Partial Class MDIMain
         Me.PointOfPaymentToolStripMenuItem1.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.SalesCollectionToolStripMenuItem, Me.SalesCollectionReportVOIDToolStripMenuItem, Me.CollectionSummaryReportToolStripMenuItem, Me.SalesReceiptToolStripMenuItem1, Me.ProductPacingReportToolStripMenuItem})
         Me.PointOfPaymentToolStripMenuItem1.Image = CType(resources.GetObject("PointOfPaymentToolStripMenuItem1.Image"), System.Drawing.Image)
         Me.PointOfPaymentToolStripMenuItem1.Name = "PointOfPaymentToolStripMenuItem1"
-        Me.PointOfPaymentToolStripMenuItem1.Size = New System.Drawing.Size(230, 24)
+        Me.PointOfPaymentToolStripMenuItem1.Size = New System.Drawing.Size(196, 22)
         Me.PointOfPaymentToolStripMenuItem1.Text = "Point Of Payment"
         '
         'SalesCollectionToolStripMenuItem
         '
         Me.SalesCollectionToolStripMenuItem.Image = CType(resources.GetObject("SalesCollectionToolStripMenuItem.Image"), System.Drawing.Image)
         Me.SalesCollectionToolStripMenuItem.Name = "SalesCollectionToolStripMenuItem"
-        Me.SalesCollectionToolStripMenuItem.Size = New System.Drawing.Size(289, 24)
+        Me.SalesCollectionToolStripMenuItem.Size = New System.Drawing.Size(239, 22)
         Me.SalesCollectionToolStripMenuItem.Text = "Sales Collection Report"
         '
         'SalesCollectionReportVOIDToolStripMenuItem
         '
         Me.SalesCollectionReportVOIDToolStripMenuItem.Image = CType(resources.GetObject("SalesCollectionReportVOIDToolStripMenuItem.Image"), System.Drawing.Image)
         Me.SalesCollectionReportVOIDToolStripMenuItem.Name = "SalesCollectionReportVOIDToolStripMenuItem"
-        Me.SalesCollectionReportVOIDToolStripMenuItem.Size = New System.Drawing.Size(289, 24)
+        Me.SalesCollectionReportVOIDToolStripMenuItem.Size = New System.Drawing.Size(239, 22)
         Me.SalesCollectionReportVOIDToolStripMenuItem.Text = "Sales Collection Report ( VOID )"
         '
         'CollectionSummaryReportToolStripMenuItem
         '
         Me.CollectionSummaryReportToolStripMenuItem.Image = CType(resources.GetObject("CollectionSummaryReportToolStripMenuItem.Image"), System.Drawing.Image)
         Me.CollectionSummaryReportToolStripMenuItem.Name = "CollectionSummaryReportToolStripMenuItem"
-        Me.CollectionSummaryReportToolStripMenuItem.Size = New System.Drawing.Size(289, 24)
+        Me.CollectionSummaryReportToolStripMenuItem.Size = New System.Drawing.Size(239, 22)
         Me.CollectionSummaryReportToolStripMenuItem.Text = "Collection Summary Report"
         '
         'SalesReceiptToolStripMenuItem1
         '
         Me.SalesReceiptToolStripMenuItem1.Image = CType(resources.GetObject("SalesReceiptToolStripMenuItem1.Image"), System.Drawing.Image)
         Me.SalesReceiptToolStripMenuItem1.Name = "SalesReceiptToolStripMenuItem1"
-        Me.SalesReceiptToolStripMenuItem1.Size = New System.Drawing.Size(289, 24)
+        Me.SalesReceiptToolStripMenuItem1.Size = New System.Drawing.Size(239, 22)
         Me.SalesReceiptToolStripMenuItem1.Text = "Sales Receipt Report"
         '
         'ProductPacingReportToolStripMenuItem
@@ -456,21 +457,21 @@ Partial Class MDIMain
         Me.ProductPacingReportToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.FastMovingToolStripMenuItem, Me.SlowMovingToolStripMenuItem})
         Me.ProductPacingReportToolStripMenuItem.Image = CType(resources.GetObject("ProductPacingReportToolStripMenuItem.Image"), System.Drawing.Image)
         Me.ProductPacingReportToolStripMenuItem.Name = "ProductPacingReportToolStripMenuItem"
-        Me.ProductPacingReportToolStripMenuItem.Size = New System.Drawing.Size(289, 24)
+        Me.ProductPacingReportToolStripMenuItem.Size = New System.Drawing.Size(239, 22)
         Me.ProductPacingReportToolStripMenuItem.Text = "Fast and Slow Moving"
         '
         'FastMovingToolStripMenuItem
         '
         Me.FastMovingToolStripMenuItem.Image = CType(resources.GetObject("FastMovingToolStripMenuItem.Image"), System.Drawing.Image)
         Me.FastMovingToolStripMenuItem.Name = "FastMovingToolStripMenuItem"
-        Me.FastMovingToolStripMenuItem.Size = New System.Drawing.Size(164, 24)
+        Me.FastMovingToolStripMenuItem.Size = New System.Drawing.Size(143, 22)
         Me.FastMovingToolStripMenuItem.Text = "Fast Moving"
         '
         'SlowMovingToolStripMenuItem
         '
         Me.SlowMovingToolStripMenuItem.Image = CType(resources.GetObject("SlowMovingToolStripMenuItem.Image"), System.Drawing.Image)
         Me.SlowMovingToolStripMenuItem.Name = "SlowMovingToolStripMenuItem"
-        Me.SlowMovingToolStripMenuItem.Size = New System.Drawing.Size(164, 24)
+        Me.SlowMovingToolStripMenuItem.Size = New System.Drawing.Size(143, 22)
         Me.SlowMovingToolStripMenuItem.Text = "Slow Moving"
         '
         'MenuStrip1
@@ -480,7 +481,7 @@ Partial Class MDIMain
         Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
         Me.MenuStrip1.Name = "MenuStrip1"
         Me.MenuStrip1.Padding = New System.Windows.Forms.Padding(7, 2, 0, 2)
-        Me.MenuStrip1.Size = New System.Drawing.Size(1020, 28)
+        Me.MenuStrip1.Size = New System.Drawing.Size(1020, 24)
         Me.MenuStrip1.TabIndex = 1
         Me.MenuStrip1.Text = "MenuStrip1"
         '
@@ -491,10 +492,10 @@ Partial Class MDIMain
         Me.TSHoldLeft.ImageScalingSize = New System.Drawing.Size(177, 70)
         Me.TSHoldLeft.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ToolStripButton1})
         Me.TSHoldLeft.LayoutStyle = System.Windows.Forms.ToolStripLayoutStyle.VerticalStackWithOverflow
-        Me.TSHoldLeft.Location = New System.Drawing.Point(0, 87)
+        Me.TSHoldLeft.Location = New System.Drawing.Point(0, 83)
         Me.TSHoldLeft.Name = "TSHoldLeft"
         Me.TSHoldLeft.RenderMode = System.Windows.Forms.ToolStripRenderMode.Professional
-        Me.TSHoldLeft.Size = New System.Drawing.Size(182, 654)
+        Me.TSHoldLeft.Size = New System.Drawing.Size(182, 658)
         Me.TSHoldLeft.TabIndex = 17
         Me.TSHoldLeft.Text = "ToolStrip1"
         Me.TSHoldLeft.TextDirection = System.Windows.Forms.ToolStripTextDirection.Vertical90
@@ -533,6 +534,7 @@ Partial Class MDIMain
         'PanelSales
         '
         Me.PanelSales.BackColor = System.Drawing.Color.WhiteSmoke
+        Me.PanelSales.Controls.Add(Me.OMADES)
         Me.PanelSales.Controls.Add(Me.Button4)
         Me.PanelSales.Controls.Add(Me.Button3)
         Me.PanelSales.Controls.Add(Me.Button2)
@@ -613,7 +615,7 @@ Partial Class MDIMain
         Me.cmdSTATISTICS.Font = New System.Drawing.Font("Arial Black", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cmdSTATISTICS.Location = New System.Drawing.Point(-1, 258)
         Me.cmdSTATISTICS.Name = "cmdSTATISTICS"
-        Me.cmdSTATISTICS.Size = New System.Drawing.Size(195, 22)
+        Me.cmdSTATISTICS.Size = New System.Drawing.Size(159, 17)
         Me.cmdSTATISTICS.TabIndex = 32
         Me.cmdSTATISTICS.TabStop = True
         Me.cmdSTATISTICS.Text = "Στατιστικά/Εκτυπώσεις"
@@ -805,7 +807,7 @@ Partial Class MDIMain
         Me.LinkMaintain.Font = New System.Drawing.Font("Arial Black", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.LinkMaintain.Location = New System.Drawing.Point(44, 6)
         Me.LinkMaintain.Name = "LinkMaintain"
-        Me.LinkMaintain.Size = New System.Drawing.Size(65, 22)
+        Me.LinkMaintain.Size = New System.Drawing.Size(52, 17)
         Me.LinkMaintain.TabIndex = 1
         Me.LinkMaintain.TabStop = True
         Me.LinkMaintain.Text = "Αρχεία"
@@ -910,7 +912,7 @@ Partial Class MDIMain
         Me.LinkPurchasing.Font = New System.Drawing.Font("Arial Black", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.LinkPurchasing.Location = New System.Drawing.Point(11, 0)
         Me.LinkPurchasing.Name = "LinkPurchasing"
-        Me.LinkPurchasing.Size = New System.Drawing.Size(199, 22)
+        Me.LinkPurchasing.Size = New System.Drawing.Size(158, 17)
         Me.LinkPurchasing.TabIndex = 1
         Me.LinkPurchasing.TabStop = True
         Me.LinkPurchasing.Text = "Purchasing and Stocks"
@@ -922,7 +924,7 @@ Partial Class MDIMain
         Me.TSHoldButtons.GripStyle = System.Windows.Forms.ToolStripGripStyle.Hidden
         Me.TSHoldButtons.ImageScalingSize = New System.Drawing.Size(52, 52)
         Me.TSHoldButtons.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ToolStripButton3})
-        Me.TSHoldButtons.Location = New System.Drawing.Point(0, 28)
+        Me.TSHoldButtons.Location = New System.Drawing.Point(0, 24)
         Me.TSHoldButtons.Name = "TSHoldButtons"
         Me.TSHoldButtons.Padding = New System.Windows.Forms.Padding(0)
         Me.TSHoldButtons.RenderMode = System.Windows.Forms.ToolStripRenderMode.System
@@ -982,7 +984,7 @@ Partial Class MDIMain
         Me.lbltime.ForeColor = System.Drawing.Color.Red
         Me.lbltime.Location = New System.Drawing.Point(57, 74)
         Me.lbltime.Name = "lbltime"
-        Me.lbltime.Size = New System.Drawing.Size(0, 17)
+        Me.lbltime.Size = New System.Drawing.Size(0, 13)
         Me.lbltime.TabIndex = 8
         '
         'lbltoday
@@ -991,7 +993,7 @@ Partial Class MDIMain
         Me.lbltoday.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lbltoday.Location = New System.Drawing.Point(58, 60)
         Me.lbltoday.Name = "lbltoday"
-        Me.lbltoday.Size = New System.Drawing.Size(0, 17)
+        Me.lbltoday.Size = New System.Drawing.Size(0, 13)
         Me.lbltoday.TabIndex = 7
         '
         'lblUser
@@ -1000,7 +1002,7 @@ Partial Class MDIMain
         Me.lblUser.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblUser.Location = New System.Drawing.Point(57, 45)
         Me.lblUser.Name = "lblUser"
-        Me.lblUser.Size = New System.Drawing.Size(0, 17)
+        Me.lblUser.Size = New System.Drawing.Size(0, 13)
         Me.lblUser.TabIndex = 6
         '
         'Label5
@@ -1009,7 +1011,7 @@ Partial Class MDIMain
         Me.Label5.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label5.Location = New System.Drawing.Point(21, 74)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(50, 17)
+        Me.Label5.Size = New System.Drawing.Size(39, 13)
         Me.Label5.TabIndex = 5
         Me.Label5.Text = "Clock :"
         '
@@ -1019,7 +1021,7 @@ Partial Class MDIMain
         Me.Label4.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label4.Location = New System.Drawing.Point(6, 59)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(68, 17)
+        Me.Label4.Size = New System.Drawing.Size(54, 13)
         Me.Label4.TabIndex = 4
         Me.Label4.Text = "Today is :"
         '
@@ -1029,7 +1031,7 @@ Partial Class MDIMain
         Me.Label3.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label3.Location = New System.Drawing.Point(3, 45)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(74, 17)
+        Me.Label3.Size = New System.Drawing.Size(57, 13)
         Me.Label3.TabIndex = 3
         Me.Label3.Text = "Welcome :"
         '
@@ -1040,7 +1042,7 @@ Partial Class MDIMain
         Me.Label2.ForeColor = System.Drawing.SystemColors.Highlight
         Me.Label2.Location = New System.Drawing.Point(68, 20)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(0, 18)
+        Me.Label2.Size = New System.Drawing.Size(0, 14)
         Me.Label2.TabIndex = 2
         '
         'Label1
@@ -1050,7 +1052,7 @@ Partial Class MDIMain
         Me.Label1.ForeColor = System.Drawing.SystemColors.Highlight
         Me.Label1.Location = New System.Drawing.Point(36, 6)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(162, 18)
+        Me.Label1.Size = New System.Drawing.Size(133, 14)
         Me.Label1.TabIndex = 1
         Me.Label1.Text = "Mercury Θερμοκήπια"
         '
@@ -1183,7 +1185,7 @@ Partial Class MDIMain
         Me.TextBox1.ForeColor = System.Drawing.Color.White
         Me.TextBox1.Location = New System.Drawing.Point(52, 0)
         Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(130, 45)
+        Me.TextBox1.Size = New System.Drawing.Size(130, 37)
         Me.TextBox1.TabIndex = 40
         Me.TextBox1.TabStop = False
         Me.TextBox1.Text = "ADVISORY"
@@ -1194,7 +1196,7 @@ Partial Class MDIMain
         Me.txttabstop.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.txttabstop.Location = New System.Drawing.Point(71, 8)
         Me.txttabstop.Name = "txttabstop"
-        Me.txttabstop.Size = New System.Drawing.Size(100, 19)
+        Me.txttabstop.Size = New System.Drawing.Size(100, 15)
         Me.txttabstop.TabIndex = 4
         '
         'PictureBox2
@@ -1258,7 +1260,7 @@ Partial Class MDIMain
         Me.Label9.ForeColor = System.Drawing.Color.White
         Me.Label9.Location = New System.Drawing.Point(1288, 1)
         Me.Label9.Name = "Label9"
-        Me.Label9.Size = New System.Drawing.Size(920, 27)
+        Me.Label9.Size = New System.Drawing.Size(734, 22)
         Me.Label9.TabIndex = 64
         Me.Label9.Text = "GAZUTO MERCHANDISING INCORPORATED DEALER OF ALL PARTS AND ACCESORIES"
         '
@@ -1269,7 +1271,7 @@ Partial Class MDIMain
         Me.lblsalesagent_Criticalproduct.ForeColor = System.Drawing.Color.Linen
         Me.lblsalesagent_Criticalproduct.Location = New System.Drawing.Point(1107, 4)
         Me.lblsalesagent_Criticalproduct.Name = "lblsalesagent_Criticalproduct"
-        Me.lblsalesagent_Criticalproduct.Size = New System.Drawing.Size(191, 18)
+        Me.lblsalesagent_Criticalproduct.Size = New System.Drawing.Size(155, 14)
         Me.lblsalesagent_Criticalproduct.TabIndex = 63
         Me.lblsalesagent_Criticalproduct.Text = "Critical Product =12345"
         '
@@ -1280,7 +1282,7 @@ Partial Class MDIMain
         Me.lblsalesagent_purchaseyear.ForeColor = System.Drawing.Color.Linen
         Me.lblsalesagent_purchaseyear.Location = New System.Drawing.Point(790, 4)
         Me.lblsalesagent_purchaseyear.Name = "lblsalesagent_purchaseyear"
-        Me.lblsalesagent_purchaseyear.Size = New System.Drawing.Size(371, 18)
+        Me.lblsalesagent_purchaseyear.Size = New System.Drawing.Size(311, 14)
         Me.lblsalesagent_purchaseyear.TabIndex = 62
         Me.lblsalesagent_purchaseyear.Text = "Amount purchase for the year =Php 1234567.00"
         '
@@ -1317,7 +1319,7 @@ Partial Class MDIMain
         Me.lblstock_Undeliver.ForeColor = System.Drawing.Color.Linen
         Me.lblstock_Undeliver.Location = New System.Drawing.Point(702, 4)
         Me.lblstock_Undeliver.Name = "lblstock_Undeliver"
-        Me.lblstock_Undeliver.Size = New System.Drawing.Size(182, 18)
+        Me.lblstock_Undeliver.Size = New System.Drawing.Size(146, 14)
         Me.lblstock_Undeliver.TabIndex = 60
         Me.lblstock_Undeliver.Text = "Undeliver order =1234"
         '
@@ -1328,7 +1330,7 @@ Partial Class MDIMain
         Me.Label7.ForeColor = System.Drawing.Color.White
         Me.Label7.Location = New System.Drawing.Point(1058, 0)
         Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(920, 27)
+        Me.Label7.Size = New System.Drawing.Size(734, 22)
         Me.Label7.TabIndex = 60
         Me.Label7.Text = "GAZUTO MERCHANDISING INCORPORATED DEALER OF ALL PARTS AND ACCESORIES"
         '
@@ -1339,7 +1341,7 @@ Partial Class MDIMain
         Me.lblstock_critical.ForeColor = System.Drawing.Color.Linen
         Me.lblstock_critical.Location = New System.Drawing.Point(854, 4)
         Me.lblstock_critical.Name = "lblstock_critical"
-        Me.lblstock_critical.Size = New System.Drawing.Size(225, 18)
+        Me.lblstock_critical.Size = New System.Drawing.Size(183, 14)
         Me.lblstock_critical.TabIndex = 59
         Me.lblstock_critical.Text = "Product(s) on Critical =1234"
         '
@@ -1360,7 +1362,7 @@ Partial Class MDIMain
         Me.lblstock_received_year.ForeColor = System.Drawing.Color.Linen
         Me.lblstock_received_year.Location = New System.Drawing.Point(207, 4)
         Me.lblstock_received_year.Name = "lblstock_received_year"
-        Me.lblstock_received_year.Size = New System.Drawing.Size(290, 18)
+        Me.lblstock_received_year.Size = New System.Drawing.Size(237, 14)
         Me.lblstock_received_year.TabIndex = 59
         Me.lblstock_received_year.Text = "Received order for the year =123456"
         '
@@ -1371,7 +1373,7 @@ Partial Class MDIMain
         Me.lblstock_received_month.ForeColor = System.Drawing.Color.Linen
         Me.lblstock_received_month.Location = New System.Drawing.Point(452, 4)
         Me.lblstock_received_month.Name = "lblstock_received_month"
-        Me.lblstock_received_month.Size = New System.Drawing.Size(292, 18)
+        Me.lblstock_received_month.Size = New System.Drawing.Size(244, 14)
         Me.lblstock_received_month.TabIndex = 58
         Me.lblstock_received_month.Text = "Received order for the month =12345"
         '
@@ -1382,7 +1384,7 @@ Partial Class MDIMain
         Me.lblstock_tot_product.ForeColor = System.Drawing.Color.Linen
         Me.lblstock_tot_product.Location = New System.Drawing.Point(25, 4)
         Me.lblstock_tot_product.Name = "lblstock_tot_product"
-        Me.lblstock_tot_product.Size = New System.Drawing.Size(217, 18)
+        Me.lblstock_tot_product.Size = New System.Drawing.Size(181, 14)
         Me.lblstock_tot_product.TabIndex = 56
         Me.lblstock_tot_product.Text = "Current Inventory  =12346 "
         '
@@ -1537,9 +1539,25 @@ Partial Class MDIMain
         Me.cmdNew.TextAlign = System.Drawing.ContentAlignment.BottomCenter
         Me.cmdNew.UseVisualStyleBackColor = False
         '
+        'OMADES
+        '
+        Me.OMADES.BackColor = System.Drawing.Color.White
+        Me.OMADES.Enabled = False
+        Me.OMADES.Font = New System.Drawing.Font("Tahoma", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.OMADES.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.OMADES.ImageKey = "document_pencil_32.png"
+        Me.OMADES.ImageList = Me.ImageList5
+        Me.OMADES.Location = New System.Drawing.Point(3, 207)
+        Me.OMADES.Name = "OMADES"
+        Me.OMADES.Size = New System.Drawing.Size(166, 27)
+        Me.OMADES.TabIndex = 52
+        Me.OMADES.Text = "           Λίστα Ομάδων"
+        Me.OMADES.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        Me.OMADES.UseVisualStyleBackColor = False
+        '
         'MDIMain
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 18.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 14.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.ControlLight
         Me.ClientSize = New System.Drawing.Size(1020, 741)
@@ -1740,5 +1758,6 @@ Partial Class MDIMain
     Friend WithEvents Button2 As System.Windows.Forms.Button
     Friend WithEvents Button1 As System.Windows.Forms.Button
     Friend WithEvents Button4 As System.Windows.Forms.Button
+    Friend WithEvents OMADES As System.Windows.Forms.Button
 
 End Class

@@ -149,4 +149,21 @@ Public Class gergates
     Private Sub GroupBox1_Enter(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles GroupBox1.Enter
 
     End Sub
+
+    Private Sub DeleteErgasia_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles DeleteErgasia.Click
+        Dim cID As String = GridView1.CurrentRow.Cells(6).Value.ToString
+
+        ExecuteSQLQuery("SELECT count(*)  FROM JOBDETAIL  where IDERGASIAS=" + cID)
+        Dim n As Long = sqlDT(0)(0)
+        If n > 0 Then
+            MsgBox("Αδύνατη η διαγραφή.Υπαρχουν " + Str(n) + " αναφορές στην εργασία")
+        Else
+            ExecuteSQLQuery("delete from JOBS   where ID=" + cID)
+            paint_ergasies()
+
+            MsgBox("OK")
+
+
+        End If
+    End Sub
 End Class

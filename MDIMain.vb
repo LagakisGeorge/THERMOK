@@ -1320,8 +1320,7 @@ Public Class MDIMain
 
 
 
-        xlApp.Visible = True
-
+        xlApp.Visible = False
 
         'CREATE TABLE [dbo].[OMADES](
         '	[ID2] [int] NULL,
@@ -1436,12 +1435,23 @@ Public Class MDIMain
             'metra
             For kerg = 0 To sqlDT.Rows.Count - 1
                 'xl.
-
+                Me.Text = Str(k) + "--" + jt.Rows(k)("name") + "  " + Str(kerg)
                 For COLS = 1 To sqlDT.Columns.Count - 1
-                    xl.Cells(kerg + 2, 1 + 2 * (COLS + 1)).value = sqlDT.Rows(kerg)(COLS)
-                    xl.Range(CL2(1 + 2 * (COLS + 1)) + ":" + CL2(1 + 2 * (COLS + 1))).HorizontalAlignment = -4131 'LEFT
+                    Try
+                        xl.Cells(kerg + 2, 1 + 2 * (COLS + 1)).value = sqlDT.Rows(kerg)(COLS)
+                        xl.Range(CL2(1 + 2 * (COLS + 1)) + ":" + CL2(1 + 2 * (COLS + 1))).HorizontalAlignment = -4131 'LEFT
+                    Catch ex As Exception
+
+                    End Try
+
                 Next
             Next
+
+            xl.Columns(1).Select()
+
+
+
+
 
 
             'xl.Columns("A:A").Select()
@@ -1461,6 +1471,7 @@ Public Class MDIMain
         mreleaseObject(xlApp)
         mreleaseObject(xlWorkBook)
         mreleaseObject(xl)
+        MsgBox("OK")
 
     End Sub
     Private Sub ListaErgasion_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ListaErgasion.Click
@@ -1480,6 +1491,7 @@ Public Class MDIMain
         ' ergates.MdiParent = Me
         gergates.WindowState = FormWindowState.Maximized
 
+        gergates.DeleteErgasia.Visible = True
 
 
         gergates.ShowDialog()
@@ -1884,5 +1896,38 @@ Public Class MDIMain
 
     Private Sub PictureBox1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles PictureBox1.Click
         analytikoExcel()
+    End Sub
+
+    Private Sub Button5_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles OMADES.Click
+
+        gergates.Text = "Αρχείο Εργασιών"
+        gergates.Label1.Text = "SELECT ID2  ,    SEIRES ,NAME  ,ID ,C1 FROM OMADES " ' ORDER BY HME "
+        Dim W As Integer = 950
+        gergates.Width = W
+        gergates.GroupBox1.Width = W - 20
+        gergates.GridView1.Width = W - 20
+
+
+
+        gergates.STHLHTOY_ID = 3
+        gergates.cmdCancel.Width = 100
+        gergates.cmdCancel.Left = W - gergates.cmdCancel.Width - 20
+
+        ' ergates.MdiParent = Me
+        gergates.WindowState = FormWindowState.Maximized
+
+
+
+        gergates.ShowDialog()
+
+        '  ExecuteSQLQuery("UPDATE  JOBS SET SEIRES=0 WHERE SEIRES IS NULL")
+
+
+
+
+
+
+
+
     End Sub
 End Class

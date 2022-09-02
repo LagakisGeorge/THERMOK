@@ -86,7 +86,7 @@
                 MDIMain.Button2.Enabled = True
                 MDIMain.Button3.Enabled = True
                 MDIMain.cmdERGASIES.Enabled = True
-
+                MDIMain.OMADES.Enabled = True
                 MDIMain.cmdSalesReceipt.Enabled = True
 
 
